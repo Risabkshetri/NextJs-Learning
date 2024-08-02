@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // async function getBook(id) {
 //     const res = await fetch(`https://openlibrary.org/works/${id}.json`)
 //     if (!res.ok) throw new Error('Failed to fetch book')
@@ -12,6 +13,17 @@ async function getBook(if){
     const data = await res.json()
     return data;
 }
+=======
+async function getBook(id) {
+    const res = await fetch(`https://openlibrary.org/works/${id}.json`)
+    if (!res.ok) throw new Error('Failed to fetch book')
+        const data = await res.json()
+        console.log(data)
+        return data
+  }
+   
+  
+>>>>>>> 7ef07d1f7fde9f349dccfbd22e47450acb220776
   export default async function BookPage({ params }) {
    const book = await getBook(params.id)
   
