@@ -1,9 +1,12 @@
-import Image from "next/image";
+import FeaturedCourses from "@/components/FeaturedCourses";
+import HeroSection from "@/components/HeroSection";
+
 
 export default function Home() {
   return (
     <div>
-  <h2 className="text-xl text-center">Build by Rishab kshetri</h2>
+  <HeroSection />
+  <FeaturedCourses />
   </div>
   );
 }
