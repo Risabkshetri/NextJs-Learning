@@ -6,46 +6,45 @@ function UpcomingWebinars() {
 
   const featuredWebinars = [
     {
-      title: 'Understanding Music Theory',
+      title: 'Understanding Data Structures',
       description:
-        'Dive deep into the fundamentals of music theory and enhance your musical skills.',
-      slug: 'understanding-music-theory',
+        'Dive deep into the fundamentals of data structures and enhance your coding skills.',
+      slug: 'understanding-data-structures',
       isFeatured: true,
     },
     {
-      title: 'The Art of Songwriting',
+      title: 'The Art of Clean Code',
       description:
-        'Learn the craft of songwriting from experienced musicians and songwriters.',
-      slug: 'the-art-of-songwriting',
+        'Learn the craft of writing clean, maintainable code from experienced developers.',
+      slug: 'the-art-of-clean-code',
       isFeatured: true,
     },
     {
-      title: 'Mastering Your Instrument',
+      title: 'Mastering Object-Oriented Programming',
       description:
-        'Advanced techniques to master your musical instrument of choice.',
-      slug: 'mastering-your-instrument',
+        'Advanced techniques to master object-oriented programming concepts.',
+      slug: 'mastering-object-oriented-programming',
       isFeatured: true,
     },
     {
-      title: 'Music Production Essentials',
+      title: 'Full-Stack Development Essentials',
       description:
-        'Get started with music production with this comprehensive overview.',
-      slug: 'music-production-essentials',
-      isFeatured: true,
-    },
-    // Added two more webinars
-    {
-      title: 'Live Performance Techniques',
-      description:
-        'Enhance your live performance skills with expert tips and strategies.',
-      slug: 'live-performance-techniques',
+        'Get started with full-stack development with this comprehensive overview.',
+      slug: 'full-stack-development-essentials',
       isFeatured: true,
     },
     {
-      title: 'Digital Music Marketing',
+      title: 'Agile Development Techniques',
       description:
-        'Learn how to promote your music effectively in the digital age.',
-      slug: 'digital-music-marketing',
+        'Enhance your project management skills with expert tips on Agile methodologies.',
+      slug: 'agile-development-techniques',
+      isFeatured: true,
+    },
+    {
+      title: 'Cybersecurity Fundamentals',
+      description:
+        'Learn how to secure your applications effectively in the digital age.',
+      slug: 'cybersecurity-fundamentals',
       isFeatured: true,
     },
   ];
@@ -55,7 +54,7 @@ function UpcomingWebinars() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center">
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">FEATURED WEBINARS</h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Enhance Your Musical Journey</p>
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Enhance Your Coding Journey</p>
         </div>
 
         <div className="mt-10">
