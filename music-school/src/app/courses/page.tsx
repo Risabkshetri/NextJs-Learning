@@ -6,6 +6,17 @@ import courseData from '@/data/music_courses.json'
 import Link from "next/link";
 
 function page() {
+
+  interface Course{
+    id: number,
+    title: string,
+    slug: string,
+    description: string,
+    price: number,
+    instructor: string,
+    isFeatured: boolean,
+        
+}
   return (
     <div className="min-hsceen bg-black py-12  pt-36">
         <h1 className="text-lg md:text-6xl font-bold text-white mb-8 font-sans text-center ">All Courses({courseData.courses.length})</h1>
