@@ -11,6 +11,7 @@ interface Course{
     price: number,
     instructor: string,
     isFeatured: boolean,
+    image: string
         
 }
 
