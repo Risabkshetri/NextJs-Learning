@@ -8,11 +8,17 @@ const content = [
     title: "Collaborative Coding",
     description:
       "Work together in real time with your team, classmates, and instructors. Collaborate on code, share ideas, and solve problems quickly. With our platform, you can streamline your learning process and increase your coding productivity.",
-    content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Collaborative Coding
-      </div>
-    ),
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white">
+          <Image
+            src="/colaboration.jpg"
+            width={300}
+            height={300}
+            className="h-full w-full object-cover"
+            alt="real-time code sharing demo"
+          />
+        </div>
+      ),
   },
   {
     title: "Real-time Code Sharing",
@@ -21,7 +27,7 @@ const content = [
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <Image
-          src="/code-sharing.webp"
+          src="/real-time.jpg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -34,21 +40,33 @@ const content = [
     title: "Version Control Integration",
     description:
       "Experience seamless integration with popular version control systems and never stress about managing your code versions again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual merges.",
-    content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-        Version Control Integration
-      </div>
-    ),
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white">
+          <Image
+            src="/version-control.jpg"
+            width={300}
+            height={300}
+            className="h-full w-full object-cover"
+            alt="real-time code sharing demo"
+          />
+        </div>
+      ),
   },
   {
     title: "Continuous Learning Environment",
     description:
       "Benefit from a continuously updated learning environment. Our platform ensures that you always have access to the latest course materials, coding examples, and resources. Stay up-to-date with the fast-paced world of programming, keep your skills sharp, and maintain your learning momentum without any gaps in your education.",
-    content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Continuous Learning Environment
-      </div>
-    ),
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white">
+          <Image
+            src="/discipline.jpeg"
+            width={300}
+            height={300}
+            className="h-full w-full object-cover"
+            alt="real-time code sharing demo"
+          />
+        </div>
+      ),
   },
 ];
 function WhyChooseUs() {
