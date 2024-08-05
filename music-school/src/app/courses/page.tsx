@@ -15,6 +15,7 @@ function page() {
     price: number,
     instructor: string,
     isFeatured: boolean,
+    image: string
         
 }
   return (
