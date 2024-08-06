@@ -57,6 +57,7 @@ function page() {
                     Try now →
                   </CardItem>
                 </Link>
+                <Link href={'/contact'}>
                 <CardItem
                   translateZ={20}
                   as="button"
@@ -64,6 +65,7 @@ function page() {
                 >
                   Sign up
                 </CardItem>
+                </Link>
               </div>
             </CardBody>
           </CardContainer>

@@ -8,7 +8,8 @@
       "price": 99.99,
       "instructor": "Elena Briggs",
       "isFeatured": true,
-      "image": "/courses/python.jpg"
+      "image": "/courses/python.jpg",
+      "content": "<div class=\"max-w-3xl mx-auto px-4 py-8\"><h2 class=\"text-3xl font-bold text-gray-800 mb-6\">Python Fundamentals</h2><p class=\"mb-4\"><strong class=\"text-gray-700\">Instructor:</strong> <span class=\"text-blue-600\">Elena Briggs</span></p><p class=\"text-gray-600 mb-8\">Python Fundamentals is designed for beginners with no prior programming experience. This comprehensive course introduces the basics of Python, one of the most popular programming languages in the world today.</p><h3 class=\"text-2xl font-semibold text-gray-800 mb-4\">What You'll Learn</h3><ul class=\"list-disc pl-6 mb-8 text-gray-700\"><li class=\"mb-2\">Writing simple scripts</li><li class=\"mb-2\">Handling variables</li><li class=\"mb-2\">Utilizing data types and operators</li><li>Loops, functions, and error handling</li></ul><p class=\"text-gray-600 mb-4\">By the end of this course, you'll be able to write basic programs and understand the core concepts of Python. You'll also gain hands-on experience with practical exercises that solidify your learning and help you build a strong foundation in Python programming.</p><p class=\"text-gray-600\">This course is perfect for anyone looking to start their programming journey or enhance their technical skills for career advancement.</p></div>"
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "price": 109.99,
       "instructor": "Marcus Reid",
       "isFeatured": true,
-      "image": "/courses/javascript.jpg"
+      "image": "/courses/javascript.jpg",
+      "content": "<div class=\"max-w-3xl mx-auto px-4 py-8\"><h2 class=\"text-3xl font-bold text-gray-800 mb-6\">Advanced JavaScript Techniques</h2><p class=\"mb-4\"><strong class=\"text-gray-700\">Instructor:</strong> <span class=\"text-blue-600\">Marcus Reid</span></p><p class=\"text-gray-600 mb-8\">Advanced JavaScript Techniques takes your web development skills to the next level by exploring the more sophisticated aspects of JavaScript. This course is aimed at intermediate to advanced learners who already have a basic understanding of JavaScript.</p><h3 class=\"text-2xl font-semibold text-gray-800 mb-4\">What You'll Learn</h3><ul class=\"list-disc pl-6 mb-8 text-gray-700\"><li class=\"mb-2\">Closures</li><li class=\"mb-2\">Promises</li><li class=\"mb-2\">Async/await</li><li class=\"mb-2\">Modules</li><li class=\"mb-2\">Performance optimization techniques</li><li class=\"mb-2\">Security best practices</li><li>Latest ECMAScript updates</li></ul><p class=\"text-gray-600\">With Marcus Reid, a veteran web developer and educator, you'll work on real-world projects that illustrate how to implement these advanced techniques in practical scenarios. By the end of this course, you'll be equipped with the skills to create more efficient, secure, and maintainable JavaScript code.</p></div>"
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "price": 119.99,
       "instructor": "Julia Zhang",
       "isFeatured": true,
-      "image": "/courses/webdev.jpg"
+      "image": "/courses/webdev.jpg",
+       "content": "<div class=\"max-w-3xl mx-auto px-4 py-8\"><h2 class=\"text-3xl font-bold text-gray-800 mb-6\">Web Development Fundamentals</h2><p class=\"mb-4\"><strong class=\"text-gray-700\">Instructor:</strong> <span class=\"text-blue-600\">Julia Zhang</span></p><p class=\"text-gray-600 mb-8\">Web Development Fundamentals offers a thorough introduction to the essential technologies of web development, including HTML, CSS, and basic JavaScript. This course is ideal for beginners who want to start building their own websites from scratch.</p><h3 class=\"text-2xl font-semibold text-gray-800 mb-4\">What You'll Learn</h3><ul class=\"list-disc pl-6 mb-8 text-gray-700\"><li class=\"mb-2\">Structuring web pages using HTML</li><li class=\"mb-2\">Styling with CSS</li><li class=\"mb-2\">Adding interactivity with JavaScript</li><li class=\"mb-2\">Best practices in web design</li><li>Accessibility and responsive design</li></ul><p class=\"text-gray-600\">Under the guidance of Julia Zhang, an experienced web developer and educator, you'll complete hands-on projects that reinforce your learning and give you practical experience in creating functional, visually appealing websites. By the end of the course, you'll have a solid foundation in web development and the confidence to continue learning more advanced topics.</p></div>"
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "price": 129.99,
       "instructor": "Julia Zhang",
       "isFeatured": true,
-      "image": "/courses/mobileapp.jpg"
+      "image": "/courses/mobileapp.jpg",
+      "content": "<div class=\"max-w-3xl mx-auto px-4 py-8\"><h2 class=\"text-3xl font-bold text-gray-800 mb-6\">Mobile App Development</h2><p class=\"mb-4\"><strong class=\"text-gray-700\">Instructor:</strong> <span class=\"text-blue-600\">Julia Zhang</span></p><p class=\"text-gray-600 mb-8\">Mobile App Development is tailored for individuals interested in creating compelling mobile applications. Whether you're a beginner or have some experience, this course covers everything from the basics to advanced techniques.</p><h3 class=\"text-2xl font-semibold text-gray-800 mb-4\">What You'll Learn</h3><ul class=\"list-disc pl-6 mb-8 text-gray-700\"><li class=\"mb-2\">Mobile app architecture</li><li class=\"mb-2\">User interface design</li><li class=\"mb-2\">Coding in popular frameworks like React Native and Flutter</li><li>Platform-specific considerations for iOS and Android development</li></ul><p class=\"text-gray-600\">Julia Zhang, a seasoned app developer, will guide you through the entire development process, from concept to deployment. You'll work on real-world projects, gaining practical experience and a portfolio of mobile apps by the end of the course. This comprehensive course ensures you have the skills and knowledge to succeed in the rapidly growing field of mobile app development.</p></div>"
     },
     {
       "id": 5,
@@ -48,7 +52,8 @@
       "price": 139.99,
       "instructor": "Andre Gomez",
       "isFeatured": true,
-      "image": "/courses/dsa.jpg"
+      "image": "/courses/dsa.jpg",
+      "content": "<div class=\"max-w-3xl mx-auto px-4 py-8\"><h2 class=\"text-3xl font-bold text-gray-800 mb-6\">Data Structures and Algorithms</h2><p class=\"mb-4\"><strong class=\"text-gray-700\">Instructor:</strong> <span class=\"text-blue-600\">Andre Gomez</span></p><p class=\"text-gray-600 mb-8\">Data Structures and Algorithms is a critical course for anyone looking to improve their problem-solving skills and understanding of computer science fundamentals.</p><h3 class=\"text-2xl font-semibold text-gray-800 mb-4\">What You'll Learn</h3><ul class=\"list-disc pl-6 mb-8 text-gray-700\"><li class=\"mb-2\">Essential data structures: arrays, linked lists, stacks, queues, hash tables, and trees</li><li>Key algorithms for sorting, searching, and graph traversal</li></ul><p class=\"text-gray-600\">Andre Gomez, an experienced computer science instructor, will explain these concepts through detailed lectures and hands-on exercises. By the end of this course, you'll be able to choose the most appropriate data structures and algorithms for your specific needs, optimizing your code for efficiency and performance. This course is invaluable for aspiring software engineers, computer science students, and anyone preparing for technical interviews.</p></div>"
     },
     {
       "id": 6,
@@ -58,7 +63,8 @@
       "price": 149.99,
       "instructor": "Marcus Reid",
       "isFeatured": false,
-      "image": "/courses/fullstack.jpg"
+      "image": "/courses/fullstack.jpg",
+      "content": "<div class=\"max-w-3xl mx-auto px-4 py-8\"><h2 class=\"text-3xl font-bold text-gray-800 mb-6\">Full-Stack Development</h2><p class=\"mb-4\"><strong class=\"text-gray-700\">Instructor:</strong> <span class=\"text-blue-600\">Marcus Reid</span></p><p class=\"text-gray-600 mb-8\">Full-Stack Development prepares you to become a versatile developer capable of handling both front-end and back-end development tasks.</p><h3 class=\"text-2xl font-semibold text-gray-800 mb-4\">What You'll Learn</h3><ul class=\"list-disc pl-6 mb-8 text-gray-700\"><li class=\"mb-2\">Front-end technologies: HTML, CSS, JavaScript</li><li class=\"mb-2\">Back-end technologies: Node.js, Express</li><li class=\"mb-2\">Database management: MongoDB</li><li>Building complete web applications from scratch</li></ul><p class=\"text-gray-600\">Marcus Reid, an expert full-stack developer, will guide you through practical projects that simulate real-world scenarios, providing you with valuable hands-on experience. By the end of this course, you'll have a comprehensive understanding of how to create, deploy, and maintain web applications, making you a highly sought-after full-stack developer.</p></div>"
     },
     {
       "id": 7,
@@ -68,7 +74,8 @@
       "price": 159.99,
       "instructor": "Andre Gomez",
       "isFeatured": false,
-      "image": "/courses/machinelearning.jpg"
+      "image": "/courses/machinelearning.jpg",
+       "content": "<div class=\"max-w-3xl mx-auto px-4 py-8\"><h2 class=\"text-3xl font-bold text-gray-800 mb-6\">Machine Learning Basics</h2><p class=\"mb-4\"><strong class=\"text-gray-700\">Instructor:</strong> <span class=\"text-blue-600\">Andre Gomez</span></p><p class=\"text-gray-600 mb-8\">Machine Learning Basics introduces you to the exciting world of machine learning, a field that combines computer science, statistics, and data analysis to create intelligent systems.</p><h3 class=\"text-2xl font-semibold text-gray-800 mb-4\">What You'll Learn</h3><ul class=\"list-disc pl-6 mb-8 text-gray-700\"><li class=\"mb-2\">Fundamental concepts: supervised and unsupervised learning</li><li class=\"mb-2\">Neural networks and deep learning</li><li>Implementing algorithms using TensorFlow and scikit-learn</li></ul><p class=\"text-gray-600\">Andre Gomez, a machine learning expert, will take you through theoretical explanations and practical exercises, helping you understand how to apply machine learning techniques to real-world problems. By the end of this course, you'll have the skills to build and evaluate machine learning models, preparing you for advanced studies or a career in this rapidly growing field.</p></div>"
     },
     {
       "id": 8,
@@ -78,7 +85,9 @@
       "price": 169.99,
       "instructor": "Elena Briggs",
       "isFeatured": false,
-      "image": "/courses/cybersecurity.jpg"
+      "image": "/courses/cybersecurity.jpg",
+     "content": "<div class=\"max-w-3xl mx-auto px-4 py-8\"><h2 class=\"text-3xl font-bold text-gray-800 mb-6\">Cybersecurity Fundamentals</h2><p class=\"mb-4\"><strong class=\"text-gray-700\">Instructor:</strong> <span class=\"text-blue-600\">Elena Briggs</span></p><p class=\"text-gray-600 mb-8\">Cybersecurity Fundamentals is designed to provide you with a solid foundation in cybersecurity principles and practices. This course covers the essentials of protecting computer systems and networks from cyber threats.</p><h3 class=\"text-2xl font-semibold text-gray-800 mb-4\">What You'll Learn</h3><ul class=\"list-disc pl-6 mb-8 text-gray-700\"><li class=\"mb-2\">Fundamentals of cybersecurity</li><li class=\"mb-2\">Types of cyber threats and attacks</li><li class=\"mb-2\">Best practices for securing systems and networks</li><li>Introduction to encryption and cryptography</li></ul><p class=\"text-gray-600\">With Elena Briggs, a cybersecurity expert, you'll explore real-world case studies and participate in hands-on labs to gain practical experience in defending against cyber threats. By the end of this course, you'll have the knowledge and skills to implement effective security measures and safeguard sensitive information.</p></div>"
+
     },
     {
       "id": 9,
@@ -88,7 +97,8 @@
       "price": 179.99,
       "instructor": "Julia Zhang",
       "isFeatured": false,
-      "image": "/courses/cloudcomputing.jpg"
+      "image": "/courses/cloudcomputing.jpg",
+      "content": "<div class=\"max-w-3xl mx-auto px-4 py-8\"><h2 class=\"text-3xl font-bold text-gray-800 mb-6\">Cloud Computing Essentials</h2><p class=\"mb-4\"><strong class=\"text-gray-700\">Instructor:</strong> <span class=\"text-blue-600\">Julia Zhang</span></p><p class=\"text-gray-600 mb-8\">Cloud Computing Essentials provides a comprehensive introduction to cloud computing, one of the most transformative technologies in modern IT. This course covers the fundamental concepts of cloud computing and offers hands-on experience with popular cloud platforms.</p><h3 class=\"text-2xl font-semibold text-gray-800 mb-4\">What You'll Learn</h3><ul class=\"list-disc pl-6 mb-8 text-gray-700\"><li class=\"mb-2\">Cloud service models: IaaS, PaaS, SaaS</li><li class=\"mb-2\">Cloud deployment models: public, private, hybrid</li><li class=\"mb-2\">Core cloud technologies and platforms: AWS, Azure, Google Cloud</li><li>Cloud security and best practices</li></ul><p class=\"text-gray-600\">Julia Zhang, an expert in cloud computing, will guide you through hands-on labs and real-world examples, providing you with practical experience in setting up and managing cloud environments. By the end of this course, you'll have a strong grasp of cloud computing concepts and be ready to leverage cloud technologies in your projects or career.</p></div>"
     },
     {
       "id": 10,
@@ -98,7 +108,8 @@
       "price": 189.99,
       "instructor": "Marcus Reid",
       "isFeatured": false,
-      "image": "/courses/devops.jpg"
-    }
+      "image": "/courses/devops.jpg",
+       "content": "<div class=\"max-w-3xl mx-auto px-4 py-8\"><h2 class=\"text-3xl font-bold text-gray-800 mb-6\">DevOps Practices</h2><p class=\"mb-4\"><strong class=\"text-gray-700\">Instructor:</strong> <span class=\"text-blue-600\">Marcus Reid</span></p><p class=\"text-gray-600 mb-8\">DevOps Practices is designed to teach you the methodologies and tools used to improve the software development and deployment processes.</p><h3 class=\"text-2xl font-semibold text-gray-800 mb-4\">What You'll Learn</h3><ul class=\"list-disc pl-6 mb-8 text-gray-700\"><li class=\"mb-2\">Continuous integration and delivery</li><li class=\"mb-2\">Infrastructure as code</li><li class=\"mb-2\">Monitoring and logging</li><li>Popular DevOps tools: Docker, Jenkins, Kubernetes, Ansible</li></ul><p class=\"text-gray-600\">Marcus Reid, an experienced DevOps engineer, will guide you through practical exercises and real-world projects that demonstrate how to implement DevOps practices in a variety of scenarios. By the end of this course, you'll have the skills and knowledge to streamline your development workflows, enhance collaboration between development and operations teams, and deliver high-quality software more efficiently.</p></div>"
+      }
   ]
 }
