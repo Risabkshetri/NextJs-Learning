@@ -17,7 +17,7 @@ function page() {
     image: string;
   }
   return (
-    <div className="min-hsceen bg-black py-12  pt-36">
+    <div className="min-hsceen bg-black py-12  pt-36 mx-4">
       <h1 className="text-lg md:text-6xl font-bold text-white mb-8 font-sans text-center ">
         All Courses({courseData.courses.length})
       </h1>
