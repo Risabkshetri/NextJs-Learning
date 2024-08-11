@@ -8,6 +8,7 @@
       "price": 99.99,
       "instructor": "Elena Briggs",
       "isFeatured": true,
+      "featuredImage": "/courses/python.webp",
       "image": "/courses/python.jpg",
       "content": "<div class=\"max-w-3xl mx-auto px-4 py-8\"><h2 class=\"text-3xl font-bold text-gray-800 mb-6\">Python Fundamentals</h2><p class=\"mb-4\"><strong class=\"text-gray-700\">Instructor:</strong> <span class=\"text-blue-600\">Elena Briggs</span></p><p class=\"text-gray-600 mb-8\">Python Fundamentals is designed for beginners with no prior programming experience. This comprehensive course introduces the basics of Python, one of the most popular programming languages in the world today.</p><h3 class=\"text-2xl font-semibold text-gray-800 mb-4\">What You'll Learn</h3><ul class=\"list-disc pl-6 mb-8 text-gray-700\"><li class=\"mb-2\">Writing simple scripts</li><li class=\"mb-2\">Handling variables</li><li class=\"mb-2\">Utilizing data types and operators</li><li>Loops, functions, and error handling</li></ul><p class=\"text-gray-600 mb-4\">By the end of this course, you'll be able to write basic programs and understand the core concepts of Python. You'll also gain hands-on experience with practical exercises that solidify your learning and help you build a strong foundation in Python programming.</p><p class=\"text-gray-600\">This course is perfect for anyone looking to start their programming journey or enhance their technical skills for career advancement.</p></div>"
     },
@@ -17,8 +18,9 @@
       "slug": "advanced-javascript-techniques",
       "description": "Enhance your web development skills with advanced JavaScript techniques for intermediate to advanced learners.",
       "price": 109.99,
-      "instructor": "Marcus Reid",
+      "instructor": "Marcus Reid",     
       "isFeatured": true,
+      "featuredImage": "/courses/js.png",
       "image": "/courses/javascript.jpg",
       "content": "<div class=\"max-w-3xl mx-auto px-4 py-8\"><h2 class=\"text-3xl font-bold text-gray-800 mb-6\">Advanced JavaScript Techniques</h2><p class=\"mb-4\"><strong class=\"text-gray-700\">Instructor:</strong> <span class=\"text-blue-600\">Marcus Reid</span></p><p class=\"text-gray-600 mb-8\">Advanced JavaScript Techniques takes your web development skills to the next level by exploring the more sophisticated aspects of JavaScript. This course is aimed at intermediate to advanced learners who already have a basic understanding of JavaScript.</p><h3 class=\"text-2xl font-semibold text-gray-800 mb-4\">What You'll Learn</h3><ul class=\"list-disc pl-6 mb-8 text-gray-700\"><li class=\"mb-2\">Closures</li><li class=\"mb-2\">Promises</li><li class=\"mb-2\">Async/await</li><li class=\"mb-2\">Modules</li><li class=\"mb-2\">Performance optimization techniques</li><li class=\"mb-2\">Security best practices</li><li>Latest ECMAScript updates</li></ul><p class=\"text-gray-600\">With Marcus Reid, a veteran web developer and educator, you'll work on real-world projects that illustrate how to implement these advanced techniques in practical scenarios. By the end of this course, you'll be equipped with the skills to create more efficient, secure, and maintainable JavaScript code.</p></div>"
     },
@@ -29,6 +31,7 @@
       "description": "Dive into web development with this introductory course on HTML, CSS, and basic JavaScript.",
       "price": 119.99,
       "instructor": "Julia Zhang",
+      "featuredImage": "/courses/webdevel.png",
       "isFeatured": true,
       "image": "/courses/webdev.jpg",
        "content": "<div class=\"max-w-3xl mx-auto px-4 py-8\"><h2 class=\"text-3xl font-bold text-gray-800 mb-6\">Web Development Fundamentals</h2><p class=\"mb-4\"><strong class=\"text-gray-700\">Instructor:</strong> <span class=\"text-blue-600\">Julia Zhang</span></p><p class=\"text-gray-600 mb-8\">Web Development Fundamentals offers a thorough introduction to the essential technologies of web development, including HTML, CSS, and basic JavaScript. This course is ideal for beginners who want to start building their own websites from scratch.</p><h3 class=\"text-2xl font-semibold text-gray-800 mb-4\">What You'll Learn</h3><ul class=\"list-disc pl-6 mb-8 text-gray-700\"><li class=\"mb-2\">Structuring web pages using HTML</li><li class=\"mb-2\">Styling with CSS</li><li class=\"mb-2\">Adding interactivity with JavaScript</li><li class=\"mb-2\">Best practices in web design</li><li>Accessibility and responsive design</li></ul><p class=\"text-gray-600\">Under the guidance of Julia Zhang, an experienced web developer and educator, you'll complete hands-on projects that reinforce your learning and give you practical experience in creating functional, visually appealing websites. By the end of the course, you'll have a solid foundation in web development and the confidence to continue learning more advanced topics.</p></div>"
@@ -41,6 +44,7 @@
       "price": 129.99,
       "instructor": "Julia Zhang",
       "isFeatured": true,
+      "featuredImage": "/courses/app.png",
       "image": "/courses/mobileapp.jpg",
       "content": "<div class=\"max-w-3xl mx-auto px-4 py-8\"><h2 class=\"text-3xl font-bold text-gray-800 mb-6\">Mobile App Development</h2><p class=\"mb-4\"><strong class=\"text-gray-700\">Instructor:</strong> <span class=\"text-blue-600\">Julia Zhang</span></p><p class=\"text-gray-600 mb-8\">Mobile App Development is tailored for individuals interested in creating compelling mobile applications. Whether you're a beginner or have some experience, this course covers everything from the basics to advanced techniques.</p><h3 class=\"text-2xl font-semibold text-gray-800 mb-4\">What You'll Learn</h3><ul class=\"list-disc pl-6 mb-8 text-gray-700\"><li class=\"mb-2\">Mobile app architecture</li><li class=\"mb-2\">User interface design</li><li class=\"mb-2\">Coding in popular frameworks like React Native and Flutter</li><li>Platform-specific considerations for iOS and Android development</li></ul><p class=\"text-gray-600\">Julia Zhang, a seasoned app developer, will guide you through the entire development process, from concept to deployment. You'll work on real-world projects, gaining practical experience and a portfolio of mobile apps by the end of the course. This comprehensive course ensures you have the skills and knowledge to succeed in the rapidly growing field of mobile app development.</p></div>"
     },
@@ -52,6 +56,7 @@
       "price": 139.99,
       "instructor": "Andre Gomez",
       "isFeatured": true,
+      "featuredImage": "/courses/dsalearning.png",
       "image": "/courses/dsa.jpg",
       "content": "<div class=\"max-w-3xl mx-auto px-4 py-8\"><h2 class=\"text-3xl font-bold text-gray-800 mb-6\">Data Structures and Algorithms</h2><p class=\"mb-4\"><strong class=\"text-gray-700\">Instructor:</strong> <span class=\"text-blue-600\">Andre Gomez</span></p><p class=\"text-gray-600 mb-8\">Data Structures and Algorithms is a critical course for anyone looking to improve their problem-solving skills and understanding of computer science fundamentals.</p><h3 class=\"text-2xl font-semibold text-gray-800 mb-4\">What You'll Learn</h3><ul class=\"list-disc pl-6 mb-8 text-gray-700\"><li class=\"mb-2\">Essential data structures: arrays, linked lists, stacks, queues, hash tables, and trees</li><li>Key algorithms for sorting, searching, and graph traversal</li></ul><p class=\"text-gray-600\">Andre Gomez, an experienced computer science instructor, will explain these concepts through detailed lectures and hands-on exercises. By the end of this course, you'll be able to choose the most appropriate data structures and algorithms for your specific needs, optimizing your code for efficiency and performance. This course is invaluable for aspiring software engineers, computer science students, and anyone preparing for technical interviews.</p></div>"
     },
@@ -62,7 +67,8 @@
       "description": "Master both front-end and back-end development to become a versatile full-stack developer.",
       "price": 149.99,
       "instructor": "Marcus Reid",
-      "isFeatured": false,
+      "isFeatured": true,
+      "featuredImage": "/courses/fullstackdev.png",
       "image": "/courses/fullstack.jpg",
       "content": "<div class=\"max-w-3xl mx-auto px-4 py-8\"><h2 class=\"text-3xl font-bold text-gray-800 mb-6\">Full-Stack Development</h2><p class=\"mb-4\"><strong class=\"text-gray-700\">Instructor:</strong> <span class=\"text-blue-600\">Marcus Reid</span></p><p class=\"text-gray-600 mb-8\">Full-Stack Development prepares you to become a versatile developer capable of handling both front-end and back-end development tasks.</p><h3 class=\"text-2xl font-semibold text-gray-800 mb-4\">What You'll Learn</h3><ul class=\"list-disc pl-6 mb-8 text-gray-700\"><li class=\"mb-2\">Front-end technologies: HTML, CSS, JavaScript</li><li class=\"mb-2\">Back-end technologies: Node.js, Express</li><li class=\"mb-2\">Database management: MongoDB</li><li>Building complete web applications from scratch</li></ul><p class=\"text-gray-600\">Marcus Reid, an expert full-stack developer, will guide you through practical projects that simulate real-world scenarios, providing you with valuable hands-on experience. By the end of this course, you'll have a comprehensive understanding of how to create, deploy, and maintain web applications, making you a highly sought-after full-stack developer.</p></div>"
     },

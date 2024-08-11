@@ -18,7 +18,7 @@ function Footer() {
           <ul>
             <li>
               <a
-                href="#"
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
             
@@ -27,7 +27,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="/about-us"
                 className="hover:text-white transition-colors duration-300"
               >
                 About
@@ -35,7 +35,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="/courses"
                 className="hover:text-white transition-colors duration-300"
               >
                 Courses
@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="/contact"
                 className="hover:text-white transition-colors duration-300"
               >
                 Contact
@@ -53,21 +53,21 @@ function Footer() {
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
-          <div className="flex space-x-4">
+          <div className="flex flex-col gap-2 ">
             <a
-              href="#"
+              href="https://github.com/Risabkshetri"
               className="hover:text-white transition-colors duration-300"
             >
               GitHub
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/104079013/admin/dashboard/"
               className="hover:text-white transition-colors duration-300"
             >
               LinkedIn
             </a>
             <a
-              href="#"
+              href="https://x.com/risab_kshetri"
               className="hover:text-white transition-colors duration-300"
             >
               Twitter
@@ -78,11 +78,11 @@ function Footer() {
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
           <p>New Delhi, India</p>
           <p>Delhi 10001</p>
-          <p>Email: info@codingschool.com</p>
+          <p>Email: info@Kshetriai.com</p>
           <p>Phone: (123) 456-7890</p>
         </div>
       </div>
-      <p className="text-center text-xs pt-8">© 2024 Coding School. All rights reserved.</p>
+      <p className="text-center text-xs pt-8">© 2024 Coding School. All rights reserved by KshetriAI.</p>
     </footer>
   )
 }

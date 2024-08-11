@@ -1,53 +1,19 @@
 'use client'
 import Link from "next/link"
 import { HoverEffect } from "./ui/card-hover-effect";
+import webinarData from "../data/webinar-data.json";
 
 function UpcomingWebinars() {
 
-  const featuredWebinars = [
-    {
-      title: 'Understanding Data Structures',
-      description:
-        'Dive deep into the fundamentals of data structures and enhance your coding skills.',
-      slug: 'understanding-data-structures',
-      isFeatured: true,
-    },
-    {
-      title: 'The Art of Clean Code',
-      description:
-        'Learn the craft of writing clean, maintainable code from experienced developers.',
-      slug: 'the-art-of-clean-code',
-      isFeatured: true,
-    },
-    {
-      title: 'Mastering Object-Oriented Programming',
-      description:
-        'Advanced techniques to master object-oriented programming concepts.',
-      slug: 'mastering-object-oriented-programming',
-      isFeatured: true,
-    },
-    {
-      title: 'Full-Stack Development Essentials',
-      description:
-        'Get started with full-stack development with this comprehensive overview.',
-      slug: 'full-stack-development-essentials',
-      isFeatured: true,
-    },
-    {
-      title: 'Agile Development Techniques',
-      description:
-        'Enhance your project management skills with expert tips on Agile methodologies.',
-      slug: 'agile-development-techniques',
-      isFeatured: true,
-    },
-    {
-      title: 'Cybersecurity Fundamentals',
-      description:
-        'Learn how to secure your applications effectively in the digital age.',
-      slug: 'cybersecurity-fundamentals',
-      isFeatured: true,
-    },
-  ];
+  interface Webinar {
+    id: number;
+    title: string;
+    slug: string;
+    description: string;
+    isFeatured: boolean;
+  }
+
+  const featuredWebinars = webinarData.webinars.filter((webinar: Webinar) => webinar.isFeatured);
 
   return (
     <div className="p-12 bg-gray-900">
@@ -59,19 +25,19 @@ function UpcomingWebinars() {
 
         <div className="mt-10">
           <HoverEffect
-          items={featuredWebinars.map(webinar => (
+          items={featuredWebinars.map((webinar: Webinar) => (
             {
               title: webinar.title,
               description: webinar.description,
-              link: '/'
+              link: '/webinars/' + webinar.slug
             }
           ))}
           />
         </div>
 
         <div className="mt-10 text-center">
-          <Link href={"/"}
-          className="px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200"
+          <Link href={"/webinars"}
+          className="px-4 py-2 rounded-md border border-neutral-600 text-white bg-slate-950 shadow-md shadow-blue-600  hover:bg-gray-800 transition duration-200"
           >
             View All webinars
           </Link>
