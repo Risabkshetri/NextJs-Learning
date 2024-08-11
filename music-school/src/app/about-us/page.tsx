@@ -129,7 +129,7 @@ const page = () => {
             ></Image>
             <h3 className="text-xl font-semibold mb-2">Rishab Kshetri</h3>
             <p className="text-gray-300 text-start">
-            Passionate about technology and innovation, Rishab Kshetri leads KshetriAI with a visionary approach. With a background in computer science and years of experience in web development, Rishab combines technical expertise with entrepreneurial spirit. His mission is to democratize access to cutting-edge web solutions, empowering businesses of all sizes to thrive in the digital landscape. Rishab's dedication to continuous learning and problem-solving drives KshetriAI's commitment to excellence and client success.
+            Passionate about technology and innovation, Rishab Kshetri leads KshetriAI with a visionary approach. With a background in computer science and years of experience in web development, Rishab combines technical expertise with entrepreneurial spirit. His mission is to democratize access to cutting-edge web solutions, empowering businesses of all sizes to thrive in the digital landscape. Rishabs dedication to continuous learning and problem-solving drives KshetriAIs commitment to excellence and client success.
 
             </p>
           </div>
@@ -141,9 +141,9 @@ const page = () => {
           transition={{ duration: 0.5, delay: 1.2 }}
           className="mt-16 text-center"
         >
-          <h2 className="text-3xl font-semibold mb-6">Let's Connect</h2>
+          <h2 className="text-3xl font-semibold mb-6">Lets Connect</h2>
           <p className="text-gray-300 mb-4">
-            We'd love to hear from you. Whether you're interested in our
+            Wed love to hear from you. Whether youre interested in our
             services or just want to chat about the latest tech trends, feel
             free to reach out.
           </p>
