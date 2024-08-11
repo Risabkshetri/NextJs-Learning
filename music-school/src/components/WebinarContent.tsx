@@ -6,7 +6,7 @@ import { TracingBeam } from "@/components/ui/tracing-beam";
 import * as React from 'react';
 import Link from "next/link";
 
-const WebinarContent = ({webinar }) => {
+const WebinarContent = ({webinar}) => {
   return (
     <TracingBeam className="px-4 sm:px-6 lg:px-8 py-12 lg:py-32">
       <motion.div 
