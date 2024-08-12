@@ -18,8 +18,8 @@ export default function Course({ params }: CourseParams) {
   }
 
   return (
-  <TracingBeam className="px-6 mt-32">
-      <div className="max-w-2xl mx-auto antialiased pt-4 relative">
+  <TracingBeam className="px-6 mt-32 ">
+      <div className="max-w-2xl md:mx-auto mx-2 antialiased pt-4 relative">
           <div className="mb-10">
             <p className="text-2xl mb-4">
               {course.title}

@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <section className="py-20 bg-gray-900 text-white">
+    <section className="py-20 bg-gray-900 text-white sm:mx-2">
       <div className="container mx-auto px-4">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
@@ -119,7 +119,7 @@ const page = () => {
           className="mt-16 text-center"
         >
           <h2 className="text-3xl font-semibold mb-6">Meet Our Founder</h2>
-          <div className="bg-gray-800 flex flex-row items-center justify-center gap-8 p-6 rounded-lg ">
+          <div className="bg-gray-800 flex md:flex-row flex-col items-center justify-center gap-8 p-6 rounded-lg ">
             <Image
               className="rounded-full"
               src="/founder.png"

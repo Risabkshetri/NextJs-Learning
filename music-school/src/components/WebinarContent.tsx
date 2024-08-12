@@ -21,12 +21,12 @@ interface Webinar {
 
 const WebinarContent: React.FC<{ webinar: Webinar }> = ({ webinar }) => {
   return (
-    <TracingBeam className="px-4 sm:px-6 lg:px-8 py-12 lg:py-32">
+    <TracingBeam className="px-4 sm:px-6 mx-2 md:mx-auto lg:px-8 py-12 lg:py-32">
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="max-w-3xl mx-auto antialiased"
+        className="max-w-3xl mx-2 antialiased"
       >
              <h1 className="text-4xl sm:text-5xl font-bold mb-6 text-gray-900 dark:text-white">
         {webinar.title}
