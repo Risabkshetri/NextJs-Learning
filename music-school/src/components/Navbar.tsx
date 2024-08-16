@@ -1,65 +1,3 @@
-// "use client";
-// import React, { useState } from "react";
-// import { HoveredLink, Menu, MenuItem} from "./ui/navbar-menu";
-// import { cn } from "../utils/cn";
-// import Link from "next/link";
-// import Image from "next/image";
-// function Navbar({ className }: { className?: string }) {
-//   const [active, setActive] = useState<string | null>(null);
-//   return (
-//     <div
-//       className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
-//     >
-//        <Image className="text-center" src="/logo.png" alt="logo" width={200} height={200}></Image>
-//       <Menu setActive={setActive}>
-//         <Link href={"/"}>
-//           <MenuItem
-//             setActive={setActive}
-//             active={active}
-//             item="Home"
-//           ></MenuItem>
-//         </Link>
-//         <Link href={"/about-us"}>
-//           <MenuItem
-//             setActive={setActive}
-//             active={active}
-//             item="About Us"
-//           ></MenuItem>
-//         </Link>
-//         <MenuItem setActive={setActive} active={active} item="Our Courses">
-//           <div className="flex flex-col space-y-4 text-sm">
-//             <HoveredLink href="/courses">All Courses</HoveredLink>
-//             <HoveredLink href="/courses/python-fundamentals">
-//               Python Fundamentals
-//             </HoveredLink>
-//             <HoveredLink href="/courses/advanced-javascript-techniques">
-//               Advanced JavaScript
-//             </HoveredLink>
-//             <HoveredLink href="/courses/web-development-fundamentals">
-//               Web Development
-//             </HoveredLink>
-//             <HoveredLink href="/courses/full-stack-development">
-//               Full-Stack Development
-//             </HoveredLink>
-//             <HoveredLink href="/courses/data-structures-and-algorithms">
-//               Data Structures & Algorithms
-//             </HoveredLink>
-//           </div>
-//         </MenuItem>
-//         <Link href={"/contact"}>
-//           <MenuItem
-//             setActive={setActive}
-//             active={active}
-//             item="Contact Us"
-//           ></MenuItem>
-//         </Link>
-//       </Menu>
-//     </div>
-//   );
-// }
-
-// export default Navbar;
-
 "use client";
 import React, { useState, useEffect } from "react";
 import { HoveredLink, Menu, MenuItem } from "./ui/navbar-menu";
@@ -127,10 +65,10 @@ function Navbar({ className }: { className?: string }) {
       
       {isMobile && isMenuOpen && (
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <Link href="/" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-slate-100 hover:bg-gray-50">Home</Link>
-          <Link href="/about-us" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-gray-900 hover:bg-gray-50">About Us</Link>
-          <Link href="/courses" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-gray-900 hover:bg-gray-50">Our Courses</Link>
-          <Link href="/contact" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-gray-900 hover:bg-gray-50">Contact Us</Link>
+          <Link onClick={() => setIsMenuOpen(false)} href="/" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-slate-100 hover:bg-gray-900">Home</Link>
+          <Link onClick={() => setIsMenuOpen(false)} href="/about-us" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-gray-900 hover:bg-gray-50">About Us</Link>
+          <Link onClick={() => setIsMenuOpen(false)} href="/courses" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-gray-900 hover:bg-gray-50">Our Courses</Link>
+          <Link onClick={() => setIsMenuOpen(false)} href="/contact" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-gray-900 hover:bg-gray-50">Contact Us</Link>
         </div>
       )}
     </nav>
